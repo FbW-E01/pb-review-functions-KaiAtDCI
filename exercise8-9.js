@@ -3,7 +3,7 @@ console.log('Exercise 8');
 const square1 = function(arg) { return arg**2 };
 console.log(square1);   // [Function: square1]
 console.log(typeof square1); // function
-console.log(typeof square1(2));  // 4
+console.log(typeof square1(2));  // number
 
 // Print the type of a variable that has an arrow function value.
 console.log('Exercise 9');
