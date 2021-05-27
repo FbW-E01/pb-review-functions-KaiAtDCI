@@ -1,4 +1,4 @@
-// Write an arrow function that takes in an array and returns true, if all items in that array have the same type.
+// 7. Write an arrow function that takes in an array and returns true, if all items in that array have the same type.
 
 const isSameTypes = (array) => {
     const typeOfFirstElement = typeof array[0];

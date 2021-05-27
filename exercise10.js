@@ -7,7 +7,7 @@ function createRandomFunction(min, max) {
     const range = max - min;
     const offset = min;
     return function() {
-        return Math.random() * range + min;
+        return Math.random() * range + offset;
     }
 }
 
